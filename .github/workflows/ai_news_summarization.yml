@@ -2,8 +2,8 @@ name: AI News Summarization Pipeline
 
 on:
   schedule:
-    - cron: '52 11 * * *'  # 5:22 PM IST
-  workflow_dispatch:       # Allows manual triggering
+    - cron: '23 12 * * *'  # 5:53 PM IST
+  workflow_dispatch:
 
 jobs:
   run-news-summarization:
