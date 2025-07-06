@@ -2,7 +2,7 @@ name: AI News Summarization Pipeline
 
 on:
   schedule:
-    - cron: '13 14 * * *'  # Runs daily at 7:43 PM IST
+    - cron: '55 16 * * *'  # Runs daily at 10:25 PM IST
   workflow_dispatch:
 
 jobs:
